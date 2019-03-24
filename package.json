@@ -1,0 +1,26 @@
+{
+  "name": "random_user_generator_ajax",
+  "version": "1.0.0",
+  "description": "https://carlashub.github.io/random_user_generator_ajax/",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/stylesheet.scss  css/main.css",
+    "watch-sass": "node-sass -w scss/stylesheet.scss  css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlasHub/random_user_generator_ajax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlasHub/random_user_generator_ajax/issues"
+  },
+  "homepage": "https://github.com/CarlasHub/random_user_generator_ajax#readme"
+}

@@ -1,0 +1,146 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway|Varela+Round|Coda);
+
+
+
+body {
+  padding: 2.23em;
+  height: 100vh;
+  background-color: beige; // #94c7dc; //#1E2125;
+    background: url("https://images.pexels.com/photos/1058388/pexels-photo-1058388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+#container{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 40% 100%;
+  background-position: right;
+  @media  (max-width : 968px) {
+    background-size: 0;
+
+  }
+
+  
+  // background: linear-gradient(to bottom, #095543 50%, black 140%);
+  // width: 800px;
+  // height:90vh;
+  // margin:auto;
+  // margin-top:5%;
+  // border: grey solid 1px;
+  // border-radius: 10px; 
+  // box-shadow: inset 0 0 15px #2C3E50;
+
+}
+.title {
+  color: black ;
+  font-weight: 900;
+  font-family: "Coda", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 10%;
+}
+
+#overlay{
+  background: rgba(0,0,0,0.4);
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.user-profile {
+  z-index: 100;
+  position:relative;
+  margin: auto 10%;
+  width:50vh;
+  height: 80vh;;
+  background: rgba(0, 0, 0, 0.8);//#1E2125;
+  border-radius: .3em;
+  box-shadow: inset 15px 0 15px -15px #2C3E50, inset -15px 0 15px -15px #2C3E50;
+
+}
+
+.user-profile  #fullname {
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-family: "Coda", sans-serif;
+  font-weight: bold;
+}
+
+#username {
+
+  text-align: center;
+  color: #3498db;
+  font-size: .87em;
+  font-family: "varela round", sans-serif;
+}
+
+.user-profile > .description {
+  margin: auto;
+  text-align: center;
+  color: lightgrey;
+  font-size: .87em;
+  font-family: "varela round", sans-serif;
+  .location{
+    font-size: 20px;
+    color : green;
+  }
+}
+
+.user-profile > img#avatar {
+	padding: .7em;
+  margin: auto;
+  padding:10px;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 18em;
+  border: 1px solid green;
+
+}
+.user-profile > img#avatar:hover {
+transform:scale3d(2,2,1);
+}
+.footer {
+	margin: 2em auto;
+	height: 3.70em;
+  background: white;// #397196;
+  text-align: center;
+  border-radius: 0 0 .3em .3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.1s;
+  position: absolute;
+  width: 100%;
+  bottom: -46px;
+}
+
+button {
+  color: black;
+  font-family: "Coda", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: 0;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.footer:hover {
+  background: #397196;
+  border: solid 1px black;
+}
+
+
+
+
