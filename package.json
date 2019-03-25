@@ -11,7 +11,6 @@
     "build-css": "node-sass --include-path scss scss/stylesheet.scss  css/main.css",
     "watch-sass": "node-sass -w scss/stylesheet.scss  css/main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "repository": {
     "type": "git",
