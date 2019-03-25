@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway|Varela+Round|Coda);
 body {
-  padding: 2.23em;
   height: 100vh;
   background-color: beige;
   background: url("https://images.pexels.com/photos/1058388/pexels-photo-1058388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -42,6 +41,11 @@ body {
   background: rgba(0, 0, 0, 0.8);
   border-radius: .3em;
   box-shadow: inset 15px 0 15px -15px #2C3E50, inset -15px 0 15px -15px #2C3E50; }
+  @media (max-width: 768px) {
+    .user-profile {
+      margin: auto;
+      width: 100%;
+      height: 100%; } }
 
 .user-profile #fullname {
   padding-top: 30px;
@@ -68,6 +72,10 @@ body {
     font-size: 20px;
     color: green; }
 
+#profile {
+  width: 50%;
+  margin: auto; }
+
 .user-profile > img#avatar {
   padding: .7em;
   margin: auto;
@@ -81,7 +89,7 @@ body {
   transform: scale3d(2, 2, 1); }
 
 .footer {
-  margin: 2em auto;
+  margin: 0;
   height: 3.70em;
   background: white;
   text-align: center;
